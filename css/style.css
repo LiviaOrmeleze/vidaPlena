@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bgfundo{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: url(https://placeholder.co/1920x1800) no-repeat center/cover;
+    width: 100%;
+    height: 700px;
+}
+.container{
+    max-width: 1073px;
+    margin: 0 auto;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+}
+.main-navigation {
+  display: flex;
+  align-items: center;
+  }
+
+.main-navigation ul{
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin: 0;
+  padding: 0 0 0 60px;
+}
+
+.main-navigation a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 530;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.3125;
+    outline-offset: -1px;
+    border-bottom: solid 3px transparent;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+    border-color: #1b7895;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #d9d9d9;
+
+}
+
+
+.site-header-main {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+  }
