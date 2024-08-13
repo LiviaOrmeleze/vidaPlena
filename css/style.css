@@ -173,7 +173,8 @@ header{
 
 
 
-  .planos {
+
+  #planos {
   width: 300px;
   max-width: 100%;
   border-radius: 10px;
@@ -186,29 +187,12 @@ header{
   margin-top: 50px;
 }
  
-
-.planos h1{
-  font-size: 30px;
+.escolher p{
+  padding: 10px ;
   margin: 0;
-  text-transform: uppercase;
-}
 
-.planos h2{
-  font-size: 25px;
-  margin: 0;
-  padding: 20px 0 0 0 ;
-  text-transform: uppercase;
-}
- 
-.planos h3{
-  font-size: 20px;
-  margin: 0;
-  padding: 20px 0 0 0 ;
-}
-
-.planos p{
-  margin-top: 50px;
-}
-
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 8px
   
-
+}
